@@ -3,7 +3,15 @@ package com.BridgeLabzs.utility;
 public class Queue<T>{
        int mTop=-1,mCp=5;
        int front=0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+       Object arr[]=new Object [mCp];
+=======
        Object arr[]=new Object[mCp];
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+       Object arr[]=new Object[mCp];
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
        public void enQueue(T value)
        {
     	   if(mTop<mCp-1) 
@@ -36,6 +44,19 @@ public class Queue<T>{
     		   System.out.println("Queue is Empty");
     	   }
        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+       public Object[] display() 
+       {
+    	   for(int i=front;i<=mTop;i++) 
+    	   {
+    		  System.out.print(arr[i]+" ");
+    	   }
+    	   System.out.println();
+		return arr;
+=======
+=======
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
        public void display() 
        {
     	   for(int i=front;i<=mTop;i++) 
@@ -43,6 +64,10 @@ public class Queue<T>{
     		   System.out.print(arr[i]+" ");
     	   }
     	   System.out.println();
+<<<<<<< HEAD
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
        }
        public void size() 
        {

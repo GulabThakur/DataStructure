@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+package com.BridgeLabzs.program;
+=======
 package com.Bridgeit.program;
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+package com.Bridgeit.program;
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 
 import java.util.Scanner;
 

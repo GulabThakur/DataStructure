@@ -120,7 +120,18 @@ public class StackImp<T> {
 		return count;
 	}
 	
+<<<<<<< HEAD
+<<<<<<< HEAD
+	/**
+	 * @return
+	 */
+	public StackImp<T> getElement()
+=======
 	public StackImp<String> getElement()
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+	public StackImp<String> getElement()
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 	{
 		StackImp<String> list=new StackImp<String>();
 		if(head!=null)
@@ -131,6 +142,27 @@ public class StackImp<T> {
 				list.push((String)temp.getData());
 				temp=temp.getNext();
 			}
+<<<<<<< HEAD
+<<<<<<< HEAD
+			return (StackImp<T>) list;
+		}
+		else{
+			System.out.println("Stack is Empty.");
+			return (StackImp<T>) list;
+		}
+   }
+	public void dispaly()
+	{
+		temp=tail;
+		while(temp!=null)
+		{
+			System.out.println(temp.getData());
+			temp=temp.getNext();
+		}
+	}
+=======
+=======
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 			return list;
 		}
 		else{
@@ -138,4 +170,8 @@ public class StackImp<T> {
 			return list;
 		}
 }
+<<<<<<< HEAD
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 }

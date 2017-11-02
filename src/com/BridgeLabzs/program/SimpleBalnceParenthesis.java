@@ -6,7 +6,15 @@ import com.BridgeLabzs.utility.StackImp;
 public class SimpleBalnceParenthesis {
 		public static void main(String[] args) {
 			System.out.println("Program Started ");
+<<<<<<< HEAD
+<<<<<<< HEAD
+			StackImp<String> s1=new StackImp<String>();
+=======
 			StackImp<String> s1=new StackImp<>();
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
+=======
+			StackImp<String> s1=new StackImp<>();
+>>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 			FileUtility input=new FileUtility();
 			boolean status;
 			System.out.println("Please Enter the Expres.");

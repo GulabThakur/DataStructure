@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-package com.Bridgeit.utility;
-=======
 package com.BridgeLabzs.utility;
->>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
-=======
-package com.BridgeLabzs.utility;
->>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 
-public class UsingStack<T>{
+import com.BridgeLabzs.utility.UsingStack.Node;
+
+public class Stack<T> {
 	 Node head;
      public class Node<T>
      {
@@ -34,20 +28,15 @@ public class UsingStack<T>{
     		}
     		temp1.next=temp;
 	 }
-     public void disp(int i) 
+     public void disp() 
      {
-    	 for(int j=1;j<=i+1;j++) 
-  		{
-  			System.out.print("  ");
-  		}
+    	
     	 Node temp=head;
     	 while(temp!=null) 
     	 {
     		 System.out.print(temp.data+" ");
     		 temp=temp.next;
-    		 i++;
-    		 if(i%7==0)
-    			 System.out.println();
+    		
     	 }
      }
      
@@ -58,5 +47,6 @@ public class UsingStack<T>{
     		System.out.print(temp.data+" ");
     		temp=temp.next;
     	 }
+    	 System.out.println();
      }
 }
