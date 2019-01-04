@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 package com.Bridgeit.utility;
-=======
 package com.BridgeLabzs.utility;
->>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
-=======
 package com.BridgeLabzs.utility;
->>>>>>> 5644c715f5cd48bf187e78162bf07c7c213ebd5b
 
 public class UsingStack<T>{
 	 Node head;
