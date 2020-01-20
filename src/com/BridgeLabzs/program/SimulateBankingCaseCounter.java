@@ -63,7 +63,7 @@ public class SimulateBankingCaseCounter {
 	   }
 	   else 
 	   {
-		   System.out.println("Balance is note avilable ");
+		   System.out.println("Balance is note available ");
 	   }
    } 
 }
